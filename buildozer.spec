@@ -36,7 +36,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma seperated e.g. requirements = sqlite3,kivy
-requirements = kivy==2.0.0, python, kivymd, pillow
+requirements = kivy==2.0.0, python3, kivymd
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
@@ -68,7 +68,7 @@ orientation = portrait
 osx.python_version = 3
 
 # Kivy version to use
-osx.kivy_version = 1.9.1
+osx.kivy_version = 2.0.0
 
 #
 # Android specific
@@ -94,7 +94,7 @@ fullscreen = 0
 #android.minapi = 9
 
 # (int) Android SDK version to use
-#android.sdk = 20
+android.sdk = 20
 
 # (str) Android NDK version to use
 #android.ndk = 9c
